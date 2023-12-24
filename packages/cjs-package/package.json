@@ -1,0 +1,25 @@
+{
+  "name": "@spreadlessapp/cjs-package",
+  "version": "1.0.0",
+  "description": "Demo cjs projct",
+  "license": "All rights reserved",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spreadlessapp/testcjsinesm"
+  },
+  "author": {
+    "name": "SpreadlessApp",
+    "email": "dave@spreadlessapp.com",
+    "url": "https://github.com/spreadlessapp"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json",
+    "lib/**/*",
+    "!**/*.spec.js"
+  ],
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {}
+}

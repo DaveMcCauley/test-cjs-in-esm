@@ -1,0 +1,21 @@
+{
+  "name": "TestCJSinESM",
+  "version": "0.0.0",
+  "description": "A test repository",
+  "license": "All rights reserved",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spreadlessapp/testcjsinesm"
+  },
+  "author": {
+    "name": "SpreadlessApp",
+    "email": "dave@spreadlessapp.com",
+    "url": "https://github.com/spreadlessapp"
+  },
+  "workspaces": [
+    "./packages/*",
+  ],
+  "dependencies": {
+  }
+}

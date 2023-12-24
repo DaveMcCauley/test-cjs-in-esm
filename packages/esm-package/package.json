@@ -1,0 +1,28 @@
+{
+  "name": "@spreadlessapp/esm-package",
+  "version": "1.0.0",
+  "description": "Demo esm projct",
+  "license": "All rights reserved",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spreadlessapp/testcjsinesm"
+  },
+  "author": {
+    "name": "SpreadlessApp",
+    "email": "dave@spreadlessapp.com",
+    "url": "https://github.com/spreadlessapp"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json",
+    "lib/**/*",
+    "!**/*.spec.js"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@spreadlessapp/cjs-package": "1.0.0"
+  },
+  "scripts": {}
+}
